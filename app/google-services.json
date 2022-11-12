@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "508749573999",
+    "project_id": "gitaapplication-c7210",
+    "storage_bucket": "gitaapplication-c7210.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508749573999:android:d8536ac77f0fb3da56829a",
+        "android_client_info": {
+          "package_name": "com.example.gitaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508749573999-deln6h9n93q4d5tih3lfg324712nob81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhsXrRPAvqN92YjF6kTelAaAshDeZp0QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508749573999-deln6h9n93q4d5tih3lfg324712nob81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frani"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frani"
+        android:layout_margin="20dp"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/justTextView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_bg"
+            android:backgroundTint="#4DFFFFFF"
+            android:drawableRight="@drawable/ic_baseline_letter"
+            android:text="Send Email to User  "
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#A34949"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/emailSendingTV"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shape_bg"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#34BB66D3"
+            android:text="gio.aroshvilli@gmail.com "
+            android:letterSpacing="0.03"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:padding="20dp"
+            android:textColor="#FC95596C"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_baseline_email_24" />
+
+            <Button
+                android:id="@+id/sendEmailButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:drawableRight="@drawable/gmail"
+                android:textSize="18dp"
+                android:textColor="#A8144C"
+                android:textStyle="bold"
+                android:backgroundTint="#B4A5C8"
+                android:text="Send "/>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:dividerColor="#796C5252"
+            android:minWidth="1dp"/>
+
+
+        <TextView
+            android:id="@+id/justSMSTEXT"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_bg"
+            android:drawableRight="@drawable/ic_baseline_letter"
+            android:text="Send SMS to User  "
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#A34949"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/smsTextTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shape_bg"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#34BB66D3"
+            android:hint="Enter Your Text Here"
+            android:letterSpacing="0.03"
+            android:drawableStart="@drawable/ic_baseline_text_format_24"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:padding="20dp"
+            android:textColor="#FC95596C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/smsNumTV"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/shape_bg"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#34BB66D3"
+            android:text=" +99556765456790 "
+            android:letterSpacing="0.03"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:padding="20dp"
+            android:textColor="#FC95596C"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/smsSendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableRight="@drawable/smsss"
+            android:textSize="18dp"
+            android:textColor="#E89F1449"
+            android:textStyle="bold"
+            android:backgroundTint="#B4A5C8"
+            android:text="Send "/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

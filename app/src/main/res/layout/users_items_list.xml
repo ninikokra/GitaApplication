@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:weightSum="4">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userCVIMG"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/avatar" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameCVET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:text="Nini KOkrashvili"
+                android:fontFamily="@font/black_han_sans"
+                android:background="#08000000"
+                android:textColor="#F5FAB1B1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailCVET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="#08000000"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="qoqranini@gmail.com"
+                android:textColor="#D8AEB7"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dateCVET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:textColor="#C8AFB4"
+                android:fontFamily="@font/convergence"
+                android:text="23/03/2021"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/careerCVET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/chewy"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:text="musician"
+                android:textColor="#FAA1B4"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/locationCVET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/black_han_sans"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"
+                android:textColor="#F5FAB1B1"
+                android:text="united states of america"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/genderCVET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="#ED9BAD"
+                android:letterSpacing="0.07"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:layout_marginTop="5dp"
+                android:text="Female"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:id="@+id/mobNumCVET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/convergence"
+                android:textColor="#F5FAB1B1"
+                android:text="5536271890"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/settingsImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/ic_baseline_settings_set"
+                    />
+                <ImageButton
+                    android:id="@+id/deleteImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/ic_trash"
+                    />
+                <ImageButton
+                    android:id="@+id/updateImageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/ic_baseline_update"
+                    android:layout_marginEnd="10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

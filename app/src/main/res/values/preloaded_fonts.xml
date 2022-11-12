@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/black_han_sans</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/chewy</item>
+        <item>@font/convergence</item>
+        <item>@font/finger_paint</item>
+        <item>@font/joti_one</item>
+        <item>@font/miriam_libre_bold</item>
+        <item>@font/potta_one</item>
+    </array>
+</resources>

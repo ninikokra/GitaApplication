@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitaApplication</string>
+    <string name="tab">tab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="save_user_info">Save USer Info</string>
+    <string name="pick_date">Pick Date</string>
+</resources>
